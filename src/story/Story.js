@@ -14,7 +14,7 @@ function renderStoryContent(content, playerName, friendName) {
 function Story() {
     const playerName = useSelector(selectPlayerName);
     const friendName = useSelector(selectFriendName);
-    const currentPage = useSelector((state) => state.story.currentPage);
+
     const storyPages = useSelector((state) => state.story.pages);
     const navigate = useNavigate();
     const { pageId } = useParams();
