@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter, Route, RouterProvider, createRoutesFromElements } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import logo from './logo.svg';
+
 import './App.css';
 import Root from './components/Root';
 import Intro from './story/Intro';
