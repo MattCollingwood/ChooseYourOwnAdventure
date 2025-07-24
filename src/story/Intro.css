@@ -1,0 +1,84 @@
+.intro {
+    background: url('../../public/img/closedbook.png');
+    background-size: cover ;
+    background-position: center;  
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    font-family: 'Macondo', cursive;
+}
+
+.cover-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cover-page{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    width: 27vw;
+    right: 38%;
+    position: absolute;
+    border: #d6cd47 2px double;
+}
+
+.cover-title {
+    font-size: 3rem;
+    color: #d6cd47;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    
+}
+
+.cover-image {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 3vh;
+}
+
+.input-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input{
+    display: flex;
+    justify-content: left;
+    color: #d6cd47;
+    margin-top: 2vh;
+}
+
+.input input {
+
+    margin-left: 3%;;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #d6cd47;
+    border: none;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+button {
+    padding: 3px 20px;
+    background-color: #fffeea;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
