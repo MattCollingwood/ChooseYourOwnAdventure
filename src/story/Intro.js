@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Intro.css';
-import {useDispatch, useSelector} from 'react-redux';
-import Story from './Story';
+import {useDispatch} from 'react-redux';
+
 import { Link } from 'react-router-dom';
 import { setPlayerName, setFriendName } from '../store/storySlice';
 
@@ -31,7 +31,7 @@ function Intro() {
             <div className="cover-area">
                 <div className="cover-page">
                     <h1 className="cover-title">Choose Your Own Adventure</h1>
-                    <img src={require('./coverart.png')}  className="cover-image" />
+                    <img src={require('./coverart.png')}  className="cover-image" alt="Cover Art"/>
                     <div className="input-position">
                         <div className="input-container">
                             <div className='input'>

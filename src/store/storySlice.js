@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit';
-import React from 'react';
+
 import * as images from '../assets/imageIndex';
-import thunk from 'redux-thunk';
+
 
 
 const storyPages = [
